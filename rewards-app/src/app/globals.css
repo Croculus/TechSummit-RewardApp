@@ -41,18 +41,45 @@ a {
   }
 }
 
-home-container { // styling for later
-
+.home-container { 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
 }
 
-home-button-group {
-
+.home-button-group {
+  display: flex;
+  gap: 20px;
+  margin-top: 32px;
 }
 
-login-container {
-
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
 }
 
-login-button-group {
+.login-button-group {
+  display: flex;
+  gap: 20px;
+  margin-top: 32px;
+}
 
+.home-button {
+  display: flex;
+  gap: 20px;
+  margin-top: 32px;
+}
+
+.reward-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
 }
